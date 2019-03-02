@@ -1,0 +1,143 @@
+/* ====GLOBAL STYLE==== */
+body {
+  background-color: #F8F8F8;
+}
+div.container {
+  width: 1600px;
+  padding: 10px 50px 20px;
+  background-color: white;
+  margin: 20px auto;
+  box-shadow: 1px 0px 10px, -1px 0px 10px ;
+}
+div.container2 {
+  width: 800px;
+  padding: 10px 50px 20px;
+  background-color: white;
+  margin: 80px auto;
+  box-shadow: 1px 0px 10px, -1px 0px 10px ;
+}
+div.photo{
+  margin-left:280px;
+}
+
+h1,h2,h3 {
+  text-align: center;
+  font-family: Cambria, "Times New Roman", serif;
+  clear: both;
+}
+#footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* =====HEADER===== */
+#header {
+  height: 60px;
+}
+#logo {
+  font-size: 42px;
+  float: left;
+  text-shadow: 1px 2px #C0C0C0;
+  margin-top: 10px; 
+  margin-bottom: 0px;
+  }
+#logo span {
+  color: green;
+}
+#tanggal{ 
+  text-align: right;
+}
+hr {
+  margin: 0px; 
+}
+
+/* =====NAVIGATION===== */
+nav {
+  width: 900px;
+  float: left;
+  clear: both;
+}
+ul{
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  overflow: hidden;
+}
+nav li a {
+  float: left;
+  background-color: #E3E3E3;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+nav li a:hover {
+  background-color: #757575;
+  color: white;
+}
+
+/* ======TABLE====== */
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+  border:1px black solid;
+  width:100%
+}
+th, td {
+  padding:8px 15px;
+  border:1px black solid;
+}
+tr:nth-child(2n+3) {
+  background-color: #F2F2F2;
+}
+
+/* ======PESAN====== */
+.pesan {
+  background-color: #C0FFA9;
+  padding: 10px 15px;
+  margin: 0 0 20px 0;
+  border: 1px solid green;
+  box-shadow: 1px 0px 3px green;
+  text-align: center;
+}
+
+
+/* ====FORM Profil==== */
+#form-profil-karyawan p {
+  margin-left:160px;
+}
+#form-profil-karyawan fieldset {
+  padding:20px;
+}
+#form-profil-karyawan input, #form-profil-karyawan select {
+  margin-bottom:10px;
+}
+#form-profil-karyawan label {
+  width:110px;
+  float:left;
+  margin-right:10px;
+}
+#form-profil-karyawan [readonly] {
+background-color: #F3F3F3;
+}
+
+/* ====FORM PENGAJUAN==== */
+#form-pengajuan p {
+  margin-left:20px;
+}
+#form-pengajuan fieldset {
+  padding:20px;
+}
+#form-pengajuan input, #form-pengajuan select {
+  margin-bottom:10px;
+}
+#form-pengajuan label {
+  width:280px;
+  float:left;
+  margin-right:10px;
+}
+#form-pengajuan [readonly] {
+background-color: #F3F3F3;
+}
